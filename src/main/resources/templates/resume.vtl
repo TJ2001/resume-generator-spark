@@ -1,0 +1,23 @@
+<h1>Joanna Anderson</h1>
+<h2 class="subheader">123 Main Street Portland, OR 97217</h2>
+<h2 class="subheader">asdf@gmail.com | (123) 345 - 1235</h2>
+#if ($jobs)
+  #foreach ($job in $jobs)
+    <h2>$job.getTitle()</h2>
+    <h3>$job.getCompany()</h3>
+    <div class="col-sm-8">
+      <h4>$job.getCity(), $job.getState()</h4>
+      <ul>
+        <li>$job.getDescription1()</li>
+        <li>$job.getDescription2()</li>
+        <li>$job.getDescription3()</li>
+      </ul>
+    </div>
+    <div class="col-sm-4">
+      <h4>$job.getStartDate() - $job.getEndDate()</h4>
+    </div>
+
+  #end
+#else
+  <p>There's no job included</p>
+#end

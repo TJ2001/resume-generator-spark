@@ -1,0 +1,43 @@
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 4.5em;
+  text-align: center;
+  color: #064789;
+}
+.subheader{
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 7px;
+  font-family: 'Istok Web', sans-serif;
+  color: #064789;
+}
+
+.container {
+  background-color: #B9F18C;
+  height: 100vh;
+}
+
+body {
+  background-color: #66A182;
+}
+
+form{
+  margin-top: 5%;
+  display: table;
+  margin-left: 20%;
+  background-color: #EBF2FA;
+  padding: 2em;
+  border: 1em solid #93827F;
+}
+
+label{
+  font-size: 1.4em;
+  display: table-cell;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+input{
+  display: table-cell;
+  width: 50vh;
+  height: 3vh;
+}
